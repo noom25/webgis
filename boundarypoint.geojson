@@ -1,0 +1,29 @@
+{
+"type": "FeatureCollection",
+"name": "boudarypoint",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "ogc_fid": 1.0, "id": 1, "x": 413300, "y": 1617300, "txt_desc": "หลักเขตที่ 1", "txt_desc2": "VB 133173" }, "geometry": { "type": "Point", "coordinates": [ 104.191087881023421, 14.630491023020671 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 2.0, "id": 2, "x": 414300, "y": 1617600, "txt_desc": "หลักเขตที่ 2", "txt_desc2": "VB 143176" }, "geometry": { "type": "Point", "coordinates": [ 104.200363133712202, 14.633235285029528 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 3.0, "id": 3, "x": 414900, "y": 1617900, "txt_desc": "หลักเขตที่ 3", "txt_desc2": "VB 149179" }, "geometry": { "type": "Point", "coordinates": [ 104.205924502976998, 14.635966555000715 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 4.0, "id": 4, "x": 415300, "y": 1618000, "txt_desc": "หลักเขตที่ 4", "txt_desc2": "VB 153180" }, "geometry": { "type": "Point", "coordinates": [ 104.209635398469629, 14.636883260065476 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 5.0, "id": 5, "x": 418400, "y": 1615900, "txt_desc": "หลักเขตที่ 5", "txt_desc2": "VB 184159" }, "geometry": { "type": "Point", "coordinates": [ 104.238485602273173, 14.617993526245179 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 6.0, "id": 6, "x": 419100, "y": 1615900, "txt_desc": "หลักเขตที่ 6", "txt_desc2": "VB 191159" }, "geometry": { "type": "Point", "coordinates": [ 104.244984856917597, 14.618014662324114 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 7.0, "id": 7, "x": 419600, "y": 1616700, "txt_desc": "หลักเขตที่ 7", "txt_desc2": "VB 196167" }, "geometry": { "type": "Point", "coordinates": [ 104.249602632376821, 14.62526229702271 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 8.0, "id": 8, "x": 423500, "y": 1615700, "txt_desc": "หลักเขตที่ 8", "txt_desc2": "VB 235157" }, "geometry": { "type": "Point", "coordinates": [ 104.285843389755016, 14.616335192810642 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 9.0, "id": 9, "x": 424000, "y": 1615500, "txt_desc": "หลักเขตที่ 9", "txt_desc2": "VB 240155" }, "geometry": { "type": "Point", "coordinates": [ 104.290491530132172, 14.614541184471317 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 10.0, "id": 10, "x": 423600, "y": 1610700, "txt_desc": "หลักเขตที่ 10", "txt_desc2": "VB 236107" }, "geometry": { "type": "Point", "coordinates": [ 104.286917425069461, 14.571133496026546 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 11.0, "id": 11, "x": 423900, "y": 1608800, "txt_desc": "หลักเขตที่ 11", "txt_desc2": "VB 239088" }, "geometry": { "type": "Point", "coordinates": [ 104.289757228893976, 14.553964189910731 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 12.0, "id": 12, "x": 423700, "y": 1604600, "txt_desc": "หลักเขตที่ 12", "txt_desc2": "VB 237046" }, "geometry": { "type": "Point", "coordinates": [ 104.288022388274655, 14.515986537220243 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 13.0, "id": 13, "x": 421300, "y": 1604000, "txt_desc": "หลักเขตที่ 13", "txt_desc2": "VB 213040" }, "geometry": { "type": "Point", "coordinates": [ 104.265767178645021, 14.510493344609227 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 14.0, "id": 14, "x": 420200, "y": 1603000, "txt_desc": "หลักเขตที่ 14", "txt_desc2": "VB 202030" }, "geometry": { "type": "Point", "coordinates": [ 104.25558916598267, 14.50142028001363 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 15.0, "id": 15, "x": 420400, "y": 1606000, "txt_desc": "หลักเขตที่ 15", "txt_desc2": "VB 204060" }, "geometry": { "type": "Point", "coordinates": [ 104.257354692964014, 14.528548883184149 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 16.0, "id": 16, "x": 418700, "y": 1607700, "txt_desc": "หลักเขตที่ 16", "txt_desc2": "VB 187077" }, "geometry": { "type": "Point", "coordinates": [ 104.241524707475577, 14.543867841997319 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 17.0, "id": 17, "x": 419500, "y": 1609000, "txt_desc": "หลักเขตที่ 17", "txt_desc2": "VB 195090" }, "geometry": { "type": "Point", "coordinates": [ 104.248910215491748, 14.555644891203301 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 18.0, "id": 18, "x": 419400, "y": 1611800, "txt_desc": "หลักเขตที่ 18", "txt_desc2": "VB 194118" }, "geometry": { "type": "Point", "coordinates": [ 104.247896201833342, 14.580956286708622 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 19.0, "id": 19, "x": 419500, "y": 1611700, "txt_desc": "หลักเขตที่ 19", "txt_desc2": "VB 195117" }, "geometry": { "type": "Point", "coordinates": [ 104.248827576503786, 14.580055188271084 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 20.0, "id": 20, "x": 414000, "y": 1612000, "txt_desc": "หลักเขตที่ 20", "txt_desc2": "VB 140120" }, "geometry": { "type": "Point", "coordinates": [ 104.197761183009916, 14.582597733252056 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 21.0, "id": 21, "x": 413400, "y": 1615100, "txt_desc": "หลักเขตที่ 21", "txt_desc2": "VB 134151" }, "geometry": { "type": "Point", "coordinates": [ 104.192089089376282, 14.610604733392352 ] } },
+{ "type": "Feature", "properties": { "ogc_fid": 22.0, "id": 22, "x": 413200, "y": 1616300, "txt_desc": "หลักเขตที่ 22", "txt_desc2": "VB 132163" }, "geometry": { "type": "Point", "coordinates": [ 104.190192511013777, 14.621447118722333 ] } }
+]
+}
