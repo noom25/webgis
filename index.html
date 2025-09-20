@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <title>LTAX WebGIS – Final</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- แผนที่เต็มจอ -->
+  <div id="map"></div>
+
+  <!-- แถบเครื่องมือมุมล่างซ้าย (ไม่บังปุ่มซูม/เลเยอร์) -->
+  <div class="toolbar" role="group" aria-label="Map tools">
+    <div class="tool-row">
+      <label for="parcelInput">ค้นหา:</label>
+      <input id="parcelInput" type="text" placeholder="parcel_cod / zone / block" />
+      <button id="searchBtn" title="ค้นหา (Enter ก็ได้)">ค้นหา</button>
+      <button id="clearBtn" title="ล้างผลการค้นหา">ล้าง</button>
+      <span id="searchInfo"></span>
+    </div>
+    <div class="tool-row sep">
+      <button id="btnDraw"  title="วาดแปลงใหม่ (Polygon)">➕ วาด</button>
+      <button id="btnEdit"  title="แก้เส้นแปลง (Edit vertices)">✏️ แก้</button>
+      <button id="btnStop"  title="ออกจากโหมดแก้ไข/วาด">⛔ หยุด</button>
+      <button id="btnSave"  title="บันทึกกลับ parcel.geojson">💾 บันทึก</button>
+    </div>
+  </div>
+
+  <!-- สคริปต์หลัก -->
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
